@@ -1,13 +1,28 @@
 hr {
 	margin-bottom: 25px;
 }
+
+#submit {
+	background-color: #4aaaa5;
+}
+
+.margins {
+	position: relative;
+	margin: 25px 25px 25px 25px;
+}
+
+.bodywrapper1 {
+    margin-left:auto;
+    margin-right:auto;
+    width:960px;
+}
  
 .imageText {
 	color: white;
 	text-align: center;
 	height: 50px;
 	background-color: #4aaaa5;
-	left: 20px;
+	font-family: 'Times New Roman';
 }
 
 .imageContainer1 {
@@ -61,22 +76,22 @@ hr {
 	padding: 15px;
 	height: 40px;
 	border-top: 8px solid #4aaaa5;
+	font-family: 'Arial';
+	color: white;
 }
 
 .name_div {
 	background-color: #4aaaa5;
 	font-family: 'Georgia';
-	margin-left: 50px;
 	text-align: center;
 	color: white;
-	clear: left;
 	float: left;
 	width: 320px;
 	height: 90px;
 }
 
 .bodyback {
-	background-image: url("../images/ep_naturalblack.png");
+	background-image: url("../images/stardust.png");
 }
 
 .headings {
@@ -88,49 +103,80 @@ hr {
 	background-color: white;
 	border-bottom: solid #cccccc;
 	height: 90px;
-	margin: 0px;
+	margin: auto;
 }
 
 .link_div {
 	background-color: white;
 	height: 90px;
 	line-height: 45px;
+	margin: auto;
 	float: right;
-	margin-right: 200px;
 }
 
 .main_div {
-	width: 625px;
-	padding: 25px;
+	width: 650px;
+	position: relative;
 	background-color: white;
+	left: 0px;
 	float: left;
-	margin-left: 15px;
+	border-style: solid;
+	border-color: #dddddd;
 }
 
 .sidebar_div {
-	width: 245px;
-	padding: 25px;
+	width: 270px;
+	position: relative;
 	background-color: #ffffff;
 	text-align: center;
+	border-style: solid;
+	border-color: #dddddd;
+	right: 0px;
 	float: right;
-	margin-right: 15px;
 }
 
-.button {
+.abtbutton {
     background-color: #ffffff;
-    border: none;
+    border-right: 1px solid #777777;
     color: #777777;
-    padding: 15px 32px;
+    padding: 15px 15px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 25px;
     font-family: 'Arial';
-    margin: 4px 2px;
+    margin: 6px 0px;
+    cursor: pointer;
+}
+
+.ptfliobutton {
+    background-color: #ffffff;
+    border-right: 1px solid #777777;
+    color: #777777;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    font-family: 'Arial';
+    margin: 6px 0px;
+    cursor: pointer;
+}
+
+.cntctbutton {
+    background-color: #ffffff;
+    color: #777777;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    font-family: 'Arial';
+    margin: 6px 0px;
     cursor: pointer;
 }
 
 p {
 	color: #777777;
-	font-family: 'Arial'
+	font-family: 'Arial';
 }
