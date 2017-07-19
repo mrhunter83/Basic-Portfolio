@@ -4,6 +4,9 @@ hr {
 
 #submit {
 	background-color: #4aaaa5;
+	box-shadow: none;
+	border-radius: 0px;
+	border-color: 0;
 }
 
 .margins {
