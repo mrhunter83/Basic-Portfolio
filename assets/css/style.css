@@ -1,1 +1,136 @@
-        1 file(s) copied.
+hr {
+	margin-bottom: 25px;
+}
+ 
+.imageText {
+	color: white;
+	text-align: center;
+	height: 50px;
+	background-color: #4aaaa5;
+	left: 20px;
+}
+
+.imageContainer1 {
+   width: 200px; 
+   height: 200px; 
+   margin: 0px 15px 30px 70px;
+   float: left;
+   background-image: url("../images/city-q-c-280-280-4.jpg");
+}
+
+.imageContainer2 {
+   width: 200px; 
+   height: 200px;
+   margin: 0px 70px 30px 15px; 
+   float: right;
+   position: relative;
+   background-image: url("../images/city-q-c-280-280-1.jpg");
+}
+
+.imageContainer3 {
+   width: 200px; 
+   height: 200px;
+   margin: 0px 15px 30px 70px;
+   float: left;
+   position: relative; 
+   background-image: url("../images/abstract-q-c-280-280-10.jpg");
+}
+
+.imageContainer4 {
+   width: 200px; 
+   height: 200px;
+   margin: 0px 70px 30px 15px;
+   float: right;
+   position: relative; 
+   background-image: url("../images/nature-q-c-280-280-8.jpg");
+}
+
+.imageContainer5 {
+   width: 200px; 
+   height: 200px;
+   margin: 0px 15px 30px 70px;
+   float: left;
+   position: relative; 
+   background-image: url("../images/technics-q-c-280-280-8.jpg");
+}
+
+.footer_div {
+	background-color: #666666;
+	margin-top: 800px;
+	text-align: center;
+	padding: 15px;
+	height: 40px;
+	border-top: 8px solid #4aaaa5;
+}
+
+.name_div {
+	background-color: #4aaaa5;
+	font-family: 'Georgia';
+	margin-left: 50px;
+	text-align: center;
+	color: white;
+	clear: left;
+	float: left;
+	width: 320px;
+	height: 90px;
+}
+
+.bodyback {
+	background-image: url("../images/ep_naturalblack.png");
+}
+
+.headings {
+	font-family: 'Georgia';
+	color: #4aaaa5;
+}
+
+.header_div {
+	background-color: white;
+	border-bottom: solid #cccccc;
+	height: 90px;
+	margin: 0px;
+}
+
+.link_div {
+	background-color: white;
+	height: 90px;
+	line-height: 45px;
+	float: right;
+	margin-right: 200px;
+}
+
+.main_div {
+	width: 625px;
+	padding: 25px;
+	background-color: white;
+	float: left;
+	margin-left: 15px;
+}
+
+.sidebar_div {
+	width: 245px;
+	padding: 25px;
+	background-color: #ffffff;
+	text-align: center;
+	float: right;
+	margin-right: 15px;
+}
+
+.button {
+    background-color: #ffffff;
+    border: none;
+    color: #777777;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    font-family: 'Arial';
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+p {
+	color: #777777;
+	font-family: 'Arial'
+}
