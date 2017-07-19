@@ -6,10 +6,18 @@
 		<title>My Portfolio</title>
 
 		<style type="text/css">
-
+			
+			hr {
+				margin-bottom: 25px;
+			}
+			
 			.footer_div {
-				background-color: #ffffff;
-				margin-top: 2000px;
+				background-color: #666666;
+				margin-top: 800px;
+				text-align: center;
+				padding: 15px;
+				height: 40px;
+				border-top: 8px solid #4aaaa5;
 			}
 
 			.name_div {
@@ -41,28 +49,42 @@
 
 			.link_div {
 				background-color: white;
+				height: 90px;
+				line-height: 45px;
 				float: right;
-				margin-right: 20px;
-				border-style: solid;
-				border-width: 5px;
+				margin-right: 200px;
 			}
 
 			.main_div {
-				width: 650px;
-				padding: 15px;
+				width: 625px;
+				padding: 25px;
 				background-color: white;
 				float: left;
 				margin-left: 15px;
 			}
 
 			.sidebar_div {
-				width: 270px;
-				padding: 15px;
+				width: 245px;
+				padding: 25px;
 				background-color: #ffffff;
 				text-align: center;
 				float: right;
 				margin-right: 15px;
 			}
+
+			.button {
+			    background-color: #ffffff;
+			    border: none;
+			    color: gray;
+			    padding: 15px 32px;
+			    text-align: center;
+			    text-decoration: none;
+			    display: inline-block;
+			    font-size: 16px;
+			    margin: 4px 2px;
+			    cursor: pointer;
+			}
+
 		</style>
 
 	</head>
@@ -76,9 +98,9 @@
 			</div>
 
 			<div class="link_div">
-				<a href="">About</a>
-				<a href="">Portfolio</a>
-				<a href="">Contact</a>
+				<a href="" class="button">About</a>
+				<a href="" class="button">Portfolio</a>
+				<a href="" class="button">Contact</a>
 			</div>
 
 		</header>
@@ -89,17 +111,17 @@
 			<h1 class="headings">
 				About Me
 			</h1>
-			<hr style="margin: 15px">
+			<hr>
 			<a href="https://placeholder.com" style="margin-left: 15px"><img src="http://via.placeholder.com/140x100"></a>
 			<p>Bio text</p>
 		</div>
 
 		<div class="sidebar_div">
-			<h1 class="headings">Connect With Me</h1>
-			<hr style="margin: 15px">
+			<h2 class="headings">Connect With Me</h2>
+			<hr>
 			<a href="linkedin.com/in/edward-hunter-7133ba1a"><img src="assets/images/Github.png"></a>
-			<a href=""></a>
-			<a href=""></a>
+			<a href=""><img src="assets/images/Linkedin.png"></a>
+			<a href=""><img src="assets/images/if_stackoverflow_273179.png"></a>
 		</div>
 
 		<footer class="footer_div">
