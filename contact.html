@@ -1,76 +1,53 @@
 <!DOCTYPE html>
 <html>
+<head>
+	<title>Contact Me | Edward Hunter</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
 
-	<head>
-
-		<title>My Portfolio</title>
-
-		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
-	</head>
-
-	<body class="bodyback">
-
-		<header class="header_div">
-
-			<div class="bodywrapper1">
-				<div class="name_div">
-					<h1>Edward Hunter</h1>
-				</div>
-
-				<div class="link_div">
-					<a href="https://mrhunter83.github.io/Basic-Portfolio/index.html" class="abtbutton">	About
-					</a>
-					<a href="https://mrhunter83.github.io/Basic-Portfolio/portfolio.html" class="ptfliobutton">
-						Portfolio
-					</a>
-					<a href="https://mrhunter83.github.io/Basic-Portfolio/contact.html" class="cntctbutton">
-						Contact
-					</a>
-				</div>
-			</div>
-
-		</header>
-
-		<br><br>
-
-		<div class="bodywrapper1">
-			<div class="main_div">
-				<div class="margins">
-					<h1 class="headings">
-						Contact
-					</h1>
-					<hr>
-					<form>
-		  				<p>
-			  				Name:<br><br>
-			  				<input type="text" name="Name" size="75"><br><br>
-			  				Email:<br><br>
-			  				<input type="text" name="Email" size="75"><br><br>
-			  				Message:<br><br>
-			  				<textarea name="message" rows="10" cols="75"></textarea>
-			  				<br>
-			  				<input type="submit" id="submit">
-		  				</p>
-					</form>
-				</div>
-			</div>
-
-			<div class="sidebar_div">
-				<div class="margins">
-					<h2 class="headings">Connect With Me</h2>
-					<hr>
-					<a href="https://github.com/mrhunter83"><img src="assets/images/Github.png" alt="github-icon"></a>
-
-					<a href="https://www.linkedin.com/in/edward-hunter-7133ba1a/"><img src="assets/images/Linkedin.png" alt="linkedin-icon"></a>
-
-					<a href="https://stackoverflow.com/users/8235081/ehunter83"><img src="assets/images/if_stackoverflow_273179.png" alt="so-icon"></a>
-				</div>
-			</div>
+<body>
+	<header id="masthead">
+		<div class="container">
+			<a href="https://mrhunter83.github.io/Basic-Portfolio/index.html" id="logo">Edward Hunter</a>
+			<nav>
+				<a href="https://mrhunter83.github.io/Basic-Portfolio/index.html">About</a>
+				<a href="https://mrhunter83.github.io/Basic-Portfolio/portfolio.html">Portfolio</a>
+				<a href="https://mrhunter83.github.io/Basic-Portfolio/contact.html">Contact</a>
+			</nav>
 		</div>
-
-		<footer class="footer_div">
-			© Copyright Edward A. Hunter Jr.
-		</footer>
-	</body>
+	</header>
+	<!-- main content -->
+	<div id="main-container" class="container">
+		<section class="main-section">
+			<h1>Contact</h1>
+			<form id="contact-form">
+				<label for="name">Name</label>
+				<input type="text" id="name" name="name" placeholder="John Smith" required="required">
+				<br>
+				<label for="email">Email</label>
+				<input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+				<br>
+				<label for="message">Message</label>
+				<textarea id="message" name="message" required="required"></textarea>
+				<br>
+				<input type="submit">
+			</form>
+		</section>
+		<!-- sidebar content -->
+		<section class="sidebar">
+			<div id="connect">
+				<h2>Connect with Me</h2>
+				<a href="https://github.com/mrhunter83"><img src="assets/images/Github.png" class="social" alt="GitHub"></a>
+				<a href="https://www.linkedin.com/in/edward-hunter-7133ba1a/"><img src="assets/images/Linkedin.png" class="social" alt="LinkedIn" /></a>
+				<a href="https://stackoverflow.com/users/8235081/ehunter83"><img src="assets/images/if_stackoverflow_273179.png" class="social" alt="Stack Overflow" /></a>
+			</div>
+		</section>
+	</div>
+	<!-- footer content -->
+	<footer>
+		<div class="container">
+			Copyright &copy; 2017 Edward Hunter
+		</div>
+	</footer>
+</body>
 </html>
