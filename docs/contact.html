@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Portfolio | Edward Hunter</title>
+	<title>Contact Me | Edward Hunter</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 
 <body>
@@ -19,32 +20,24 @@
 	<!-- main content -->
 	<div id="main-container" class="container">
 		<section class="main-section">
-			<h1>Portfolio</h1>
-			<div class="work">
-				<img src="assets/images/abstract-q-c-280-280-10.jpg" alt="hangman">
-				<h3>Hangman</h3>
-			</div>
-			<div class="work">
-				<img src="assets/images/technics-q-c-280-280-8.jpg" alt="RPG Game">
-				<h3>RPG Game</h3>
-			</div>
-			<div class="work">
-				<img src="assets/images/nature-q-c-280-280-8.jpg" alt="Trivia Game">
-				<h3>Trivia Game</h3>
-			</div>
-			<div class="work">
-				<img src="assets/images/city-q-c-280-280-1.jpg" alt="Rutgers Info Widget">
-				<h3>Rutgers Info Widget</h3>
-			</div>
-			<div class="work">
-				<img src="assets/images/city-q-c-280-280-4.jpg" alt="Rock Paper Scissors">
-				<h3>Rock Paper Scissors</h3>
-			</div>
+			<h1>Contact</h1>
+			<form id="contact-form">
+				<label for="name">Name</label>
+				<input type="text" id="name" name="name" placeholder="John Smith" required="required">
+				<br>
+				<label for="email">Email</label>
+				<input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+				<br>
+				<label for="message">Message</label>
+				<textarea id="message" name="message" required="required"></textarea>
+				<br>
+				<input type="submit">
+			</form>
 		</section>
 		<!-- sidebar content -->
 		<section class="sidebar">
 			<div id="connect">
-				<h2>Connect with Me</h2>
+				<h2>Connect with me</h2>
 				<a href="https://github.com/mrhunter83"><img src="assets/images/Github.png" class="social" alt="GitHub"></a>
 				<a href="https://www.linkedin.com/in/edward-hunter-7133ba1a/"><img src="assets/images/Linkedin.png" class="social" alt="LinkedIn" /></a>
 				<a href="https://stackoverflow.com/users/8235081/ehunter83"><img src="assets/images/if_stackoverflow_273179.png" class="social" alt="Stack Overflow" /></a>
@@ -52,10 +45,10 @@
 		</section>
 	</div>
 	<!-- footer content -->
-	<footer>
-		<div class="container">
-			Copyright &copy; 2017 Edward Hunter
-		</div>
-	</footer>
+	<div class="container">
+		<footer>
+			<h4>Copyright &copy; 2017 Edward Hunter</h4>
+		</footer>
+	</div>
 </body>
 </html>
