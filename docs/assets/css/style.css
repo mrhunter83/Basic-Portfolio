@@ -158,7 +158,6 @@ h3,
   width: 274px;
   margin: 20px 0 25px;
   overflow: auto;
-  box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
   background: #ecf0f1;
 }
 .work:nth-child(even) {
@@ -181,6 +180,9 @@ h3,
   text-align: center;
   background: #fff;
   border-bottom: 0;
+}
+.work:hover {
+  box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .auth-image {
   float: left;
